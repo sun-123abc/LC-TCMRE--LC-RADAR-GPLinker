@@ -25,7 +25,7 @@ LC-TCMRE 数据集面向肺癌中医医案文本构建，采用 SPO 三元组形
 | 证型-方剂   | 证型   | 方剂   |
 | 治法-方剂   | 治法   | 方剂   |
 | 方剂-处方用药 | 方剂   | 处方用药 |
-
+使用数据为本仓库中的train_chunks.json、test_chunks.json、dev_chunks.json、rel2id.json、id2rel.json
 数据样例如下：
 
 ```json
