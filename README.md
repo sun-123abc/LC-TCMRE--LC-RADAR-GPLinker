@@ -13,6 +13,9 @@ LC-RADAR-GPLinker 以 GPLinker 为基础框架，主要包含三个改进模块�
 * **DERAF**：领域增强关系自适应融合模块。
 
 ## 2. LC-TCMRE 数据集
+数据集上传至夸克网盘
+链接：https://pan.quark.cn/s/5fffd710dd25?pwd=BnLv
+提取码：BnLv
 
 LC-TCMRE 数据集面向肺癌中医医案文本构建，采用 SPO 三元组形式标注实体间关系。数据集共包含 7 类关系：
 
