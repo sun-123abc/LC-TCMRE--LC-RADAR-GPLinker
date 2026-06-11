@@ -1,0 +1,157 @@
+{
+  "split_reports": {
+    "train": {
+      "split": "train",
+      "sample_count": 753,
+      "total_entities": 54610,
+      "total_relations": 27088,
+      "entity_counter": {
+        "时间": 2228,
+        "证型": 1504,
+        "治法": 1875,
+        "处方用药": 17737,
+        "症状": 20191,
+        "患者信息": 2183,
+        "西医病名": 773,
+        "中医病名": 394,
+        "检查结果": 5283,
+        "检查": 1909,
+        "方剂": 533
+      },
+      "relation_counter": {
+        "检查-检查结果": 3795,
+        "症状-证型": 10767,
+        "中医病名-证型": 621,
+        "证型-治法": 3076,
+        "证型-方剂": 766,
+        "治法-方剂": 929,
+        "方剂-处方用药": 7134
+      },
+      "zero_relation_sample_count": 16,
+      "zero_relation_sample_indices": [
+        8,
+        13,
+        113,
+        258,
+        259,
+        365,
+        366,
+        373,
+        417,
+        419,
+        518,
+        519,
+        719,
+        720,
+        721,
+        743
+      ],
+      "span_error_count": 0,
+      "missing_endpoint_error_count": 0,
+      "invalid_relation_error_count": 0,
+      "schema_error_count": 0,
+      "duplicate_relation_error_count": 0,
+      "repeated_text_count_inside_split": 0,
+      "details": {
+        "span_errors": [],
+        "missing_endpoint_errors": [],
+        "invalid_relation_errors": [],
+        "schema_errors": [],
+        "duplicate_relation_errors": []
+      }
+    },
+    "dev": {
+      "split": "dev",
+      "sample_count": 94,
+      "total_entities": 7559,
+      "total_relations": 3328,
+      "entity_counter": {
+        "患者信息": 261,
+        "时间": 275,
+        "症状": 2814,
+        "检查": 303,
+        "检查结果": 791,
+        "西医病名": 127,
+        "中医病名": 50,
+        "证型": 167,
+        "治法": 261,
+        "处方用药": 2435,
+        "方剂": 75
+      },
+      "relation_counter": {
+        "检查-检查结果": 607,
+        "症状-证型": 1332,
+        "中医病名-证型": 70,
+        "证型-治法": 313,
+        "证型-方剂": 78,
+        "治法-方剂": 92,
+        "方剂-处方用药": 836
+      },
+      "zero_relation_sample_count": 1,
+      "zero_relation_sample_indices": [
+        84
+      ],
+      "span_error_count": 0,
+      "missing_endpoint_error_count": 0,
+      "invalid_relation_error_count": 0,
+      "schema_error_count": 0,
+      "duplicate_relation_error_count": 0,
+      "repeated_text_count_inside_split": 0,
+      "details": {
+        "span_errors": [],
+        "missing_endpoint_errors": [],
+        "invalid_relation_errors": [],
+        "schema_errors": [],
+        "duplicate_relation_errors": []
+      }
+    },
+    "test": {
+      "split": "test",
+      "sample_count": 95,
+      "total_entities": 7737,
+      "total_relations": 4013,
+      "entity_counter": {
+        "患者信息": 281,
+        "症状": 2855,
+        "检查": 227,
+        "检查结果": 617,
+        "时间": 330,
+        "证型": 235,
+        "治法": 285,
+        "处方用药": 2653,
+        "西医病名": 123,
+        "方剂": 84,
+        "中医病名": 47
+      },
+      "relation_counter": {
+        "检查-检查结果": 437,
+        "症状-证型": 2079,
+        "证型-治法": 400,
+        "证型-方剂": 93,
+        "治法-方剂": 99,
+        "方剂-处方用药": 832,
+        "中医病名-证型": 73
+      },
+      "zero_relation_sample_count": 2,
+      "zero_relation_sample_indices": [
+        4,
+        68
+      ],
+      "span_error_count": 0,
+      "missing_endpoint_error_count": 0,
+      "invalid_relation_error_count": 0,
+      "schema_error_count": 0,
+      "duplicate_relation_error_count": 0,
+      "repeated_text_count_inside_split": 0,
+      "details": {
+        "span_errors": [],
+        "missing_endpoint_errors": [],
+        "invalid_relation_errors": [],
+        "schema_errors": [],
+        "duplicate_relation_errors": []
+      }
+    }
+  },
+  "cross_split_duplicate_count": 0,
+  "cross_split_duplicates_preview": []
+}
